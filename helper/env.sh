@@ -1,0 +1,14 @@
+. $HOME/bin/env_terraform_appdev.sh
+export TF_VAR_compartment_ocid=ocid1.compartment.oc1..aaaaaaaa4vqn4n4z2qybg6waq6ve75tdxrkz4ibvknectgzbk3ujbxcsbsfq
+export TF_VAR_function_image_uri=fra.ocir.io/frsxwtjslf35/opensearch-tika-function-2253:tikaparser
+export TF_VAR_tenancy_ocid=ocid1.tenancy.oc1..aaaaaaaa4wptnxymnypvjjltnejidchjhz6uimlhru7rdi5qb6qlnmrtgu3a
+export TF_VAR_region=eu-frankfurt-1
+export CLIENT_ID=29b61a7c17544a44adbd556c3ba28ac4
+export CLIENT_SECRET=10e004e3-fbe9-4637-a3eb-d7b4c5902bd7
+export IDCS_USER=oracleidentitycloudservice/marc.gueury@oracle.com
+export OCI_USER=marc.gueury@oracle.com
+export OCI_PASSWORD=fallibleGuest_19720
+export OCI_TOKEN="X9au2i+sy6uvL9Pn_4yC"
+export IDCS_HOST=idcs-b491bb438ac049ab84a63c3dad161665.identity.oraclecloud.com
+export TF_VAR_terraform_state_url=https://objectstorage.eu-frankfurt-1.oraclecloud.com/p/x1AnWe71prfMEMZCMIF3mPJGfBfmLWphVv80gUgsvny4AvRg96-b-jXbEIk2Ptfe/n/frsxwtjslf35/b/terraform-opensearch/o/tfstate.tf
+. action/env_pre_terraform.sh
