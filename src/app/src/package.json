@@ -5,8 +5,9 @@
     "private": true,
     "description": "Starter app",
     "dependencies": {
-        "express": "^4.18.2"
-             
+        "express": "^4.18.2",
+        "oci-aispeech": "^2.121.0",
+        "oci-common": "^2.121.0"
     },
     "author": "You",
     "license": "MIT"
