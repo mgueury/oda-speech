@@ -1,8 +1,11 @@
 ## ODA Speech - getToken component
 ### Usage
-Install a compute with a nodejs program. The program is accessible HTTP and HTTPS (via APIGateway):
-- http://xxxxx/app/getToken
+Install a OCI Compute with a NodeJS program. The program is accessible HTTP and HTTPS (via APIGateway):
+- http://COMPUTE_IP/app/getToken
 - https://APIGW_HOSTNAME/xxxxx/app/getToken
+
+For more information, see here:
+- https://docs.oracle.com/en/cloud/paas/digital-assistant/sdk-js/index.html
 
 ### Commands
 - starter.sh         : Show the menu
