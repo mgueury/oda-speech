@@ -1,8 +1,8 @@
 ## ODA Speech - getToken component
 ### Usage
 Install a compute with a nodejs program. The program is accessible HTTP and HTTPS (via APIGateway):
-- http://xxxxx/app/getToken"
-- https://APIGW_HOSTNAME/xxxxx/app/getToken"
+- http://xxxxx/app/getToken
+- https://APIGW_HOSTNAME/xxxxx/app/getToken
 
 ### Commands
 - starter.sh         : Show the menu
