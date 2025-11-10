@@ -4,9 +4,8 @@ const express = require('express');
 const os = require('os');
 const PORT = 8080; // Change if needed
 const COMPARTMENT_ID = process.env.TF_VAR_compartment_ocid;
-const PROFILE_NAME = 'OCI_SPEECH'; // As an example not to overwrite an eventual existing default profile
-const PROFILE_PATH = `${os.homedir()}/.oci/config`;
 const REGION = process.env.TF_VAR_region;
+
 async function getRealtimeSessionToken(region, compartmentId) {
     try {
         // Use the AuthDetailsProvider suited for your use case.

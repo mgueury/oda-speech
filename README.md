@@ -1,5 +1,8 @@
-## OCI-Starter
+## ODA Speech - detToken component
 ### Usage
+Install a compute with a nodejs program. The program is accessible HTTP and HTTPS (via APIGateway):
+- http://xxxxx/app/getToken"
+- https://APIGW_HOSTNAME/xxxxx/app/getToken"
 
 ### Commands
 - starter.sh         : Show the menu
@@ -8,18 +11,8 @@
 - starter.sh destroy : Destroy the objects created by Terraform
 - starter.sh env     : Set the env variables in BASH Shell
 
-### Directories
-- src           : Sources files
-    - app       : Source of the Backend Application
-    - ui        : Source of the User Interface
-    - db        : SQL files of the database
-    - terraform : Terraform scripts
-    - compute   : Contains the deployment files to Compute
-
-Help (Tutorial + How to customize): https://www.ocistarter.com/help
-
 ### Next Steps:
 
-- Run:
-  cd starter
-  ./starter.sh
+- Build:
+  ./starter.sh build
+
