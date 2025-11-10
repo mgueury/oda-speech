@@ -13,7 +13,7 @@ echo
 
 echo "URLs" > $FILE_DONE
 append_done "-----------------------------------------------------------------------"
-append_done "OpenAI Gateway URLs:"
+append_done "ODA Speech URLs:"
 append_done "- http://${BASTION_IP}/app/getToken"
 append_done "- https://${APIGW_HOSTNAME}/${TF_VAR_prefix}/app/getToken"
 append_done
