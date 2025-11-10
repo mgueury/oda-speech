@@ -4,8 +4,8 @@ Install a OCI Compute with a NodeJS program. The program is accessible HTTP and 
 - http://COMPUTE_IP/app/getToken
 - https://APIGW_HOSTNAME/xxxxx/app/getToken
 
-For more information, see here:
-- https://docs.oracle.com/en/cloud/paas/digital-assistant/sdk-js/index.html
+For more information, see Oracle Digital Assistant - OCI Speech integration:
+- https://docs.oracle.com/en/cloud/paas/digital-assistant/sdk-js/index.html#oci-speech-integration
 
 ### Commands
 - starter.sh         : Show the menu
